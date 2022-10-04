@@ -1,0 +1,26 @@
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   background-color: purple;
+}
+.parent{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+div{
+font-size: 2rem;
+padding: 1em;
+text-align: center;
+
+}
+
+div:nth-of-type(1) {background-color: green;} 
+div:nth-of-type(2) {background-color: greenyellow;}
+div:nth-of-type(3) {background-color: rgba(50, 196, 10, 0.322);}
+div:nth-of-type(4) {background-color: rgb(23, 163, 23);}
+
+a:hover {color: goldenrod; text-size-adjust: 110%;}
+a:link {text-decoration: none;}
+
