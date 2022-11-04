@@ -1,0 +1,57 @@
+*{color: black;}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   background-image: url("../index/blueback.jpg"); background-repeat: no-repeat; background-size: cover;
+        margin: 0;
+        }
+#banner{display: flex;
+width: 100%;
+height: auto;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+position: fixed;
+background-color:  rgb(13, 13, 195);
+}
+
+
+
+
+
+
+
+.parent:nth-of-type(2){display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    position: static;
+}
+
+
+.parent:nth-of-type(3){
+    display: grid;
+    grid-template-columns: 1fr 1fr;}
+
+@media (max-width: 1000px) { 
+    #banner{display: grid;
+    grid-template-columns: 1fr; }
+    }
+    
+
+
+
+div{
+font-size: 2rem;
+padding: 1em;
+text-align: center;
+
+}
+
+
+
+a:hover {color: goldenrod; text-size-adjust: 110%;}
+a:link {text-decoration: none;}
+a:nth-of-type(1){margin: auto;min-width: 20%;}
+a:nth-of-type(2){margin: auto;min-width: 20%;}
+a:nth-of-type(3){margin: auto;min-width: 20%;}
+a:nth-of-type(4){margin: auto;min-width: 20%;}
+
